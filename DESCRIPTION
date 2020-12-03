@@ -1,0 +1,15 @@
+Package: farsfunction
+Title: Fatality Analysis Reporting System (FARS) data handling package
+Version: 0.0.0.7
+Authors@R: Daan van Bokkem <dcvanbokkem@hotmail.nl>
+Description: Package contains 5 functions that load, read, organize, summarize and visualize FARS data
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

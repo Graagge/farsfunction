@@ -1,0 +1,43 @@
+---
+title: "model_details"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{model_details}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(farsfunction)
+```
+
+# Fatality Analysis Reporting System (FARS) data handling package
+
+This package contains 5 functions that load, read, organize, summarize and visualize FARS data.
+
+## fars_read
+
+Reads the FARS data file.
+
+## make_filename
+
+Generates a file name.
+
+## fars_read_years
+
+Uses the previous two functions to generate a list of data frames.
+
+## fars_read_summarize
+
+Prints a summary of the data.
+
+## fars_map_state
+
+Plots a graphic showing the location of accidents in each state of the US.
