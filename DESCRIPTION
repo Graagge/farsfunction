@@ -1,7 +1,7 @@
 Package: farsfunction
 Title: Fatality Analysis Reporting System (FARS) data handling package
 Version: 0.0.0.7
-Authors@R: Daan van Bokkem <dcvanbokkem@hotmail.nl>
+Authors@R: Daan van Bokkem
 Description: Package contains 5 functions that load, read, organize, summarize and visualize FARS data
 License: GPL-3
 Encoding: UTF-8
