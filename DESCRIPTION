@@ -5,8 +5,7 @@ Depends: R (>= 3.0.0)
 Title: Fatality Analysis Reporting System (FARS) data handling package
 Author: Daan van Bokkem <dcvanbokkem@hotmail.nl>
 Maintainer: Daan van Bokkem <dcvanbokkem@hotmail.nl>
-Description: Package contains 5 functions that load, read, organize, summarize
-and visualize FARS data
+Description: Package contains 5 functions that load, read, organize, summarize and visualize FARS data
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
